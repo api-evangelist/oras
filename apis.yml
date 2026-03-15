@@ -1,0 +1,13 @@
+name: ORAS
+description: OCI Registry As Storage - A way to push and pull OCI artifacts to and
+  from OCI registries
+url: https://oras.land/
+tags:
+- Container Registry
+- OCI
+- Artifact Storage
+- Cloud Native
+created: '2025'
+modified: '2025'
+apis: []
+common: []
