@@ -1,13 +1,46 @@
+aid: oras
 name: ORAS
-description: OCI Registry As Storage - A way to push and pull OCI artifacts to and
-  from OCI registries
-url: https://oras.land/
+description: >-
+  OCI Registry As Storage - A way to push and pull OCI artifacts to and
+  from OCI registries. ORAS provides tools for using container registries
+  to distribute any content as OCI artifacts.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Container Registry
-- OCI
-- Artifact Storage
-- Cloud Native
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - Container Registry
+  - OCI
+  - Artifact Storage
+  - Cloud Native
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/oras/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: oras:oras
+    name: ORAS
+    description: >-
+      ORAS provides tools and libraries for pushing and pulling OCI artifacts
+      to and from OCI registries.
+    humanURL: https://oras.land/
+    tags:
+      - OCI
+      - Containers
+      - Artifacts
+    properties:
+      - type: Documentation
+        url: https://oras.land/docs/
+      - type: Getting Started
+        url: https://oras.land/docs/installation
+common:
+  - type: Website
+    url: https://oras.land/
+  - type: Documentation
+    url: https://oras.land/docs/
+  - type: GitHub Organization
+    url: https://github.com/oras-project
+  - type: Community
+    url: https://oras.land/community/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
