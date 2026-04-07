@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Container Registry
-  - OCI
   - Artifact Storage
   - Cloud Native
+  - Container Registry
+  - OCI
 url: >-
   https://raw.githubusercontent.com/api-evangelist/oras/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -24,9 +24,9 @@ apis:
       to and from OCI registries.
     humanURL: https://oras.land/
     tags:
-      - OCI
-      - Containers
       - Artifacts
+      - Containers
+      - OCI
     properties:
       - type: Documentation
         url: https://oras.land/docs/
