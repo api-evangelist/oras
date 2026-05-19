@@ -17,7 +17,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/oras/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: oras:cli
@@ -72,6 +72,9 @@ common:
     url: https://oras.land/community/
   - type: CNCF
     url: https://www.cncf.io/projects/oras/
+  - name: MCP Server
+    url: https://github.com/oras-project/oras-mcp
+    type: MCPServer
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
