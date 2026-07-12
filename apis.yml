@@ -62,6 +62,8 @@ apis:
       - type: JavaScript
         url: https://github.com/oras-project/oras-js
 common:
+  - type: DomainSecurity
+    url: security/oras-domain-security.yml
   - type: Website
     url: https://oras.land/
   - type: Documentation
@@ -75,6 +77,8 @@ common:
   - name: MCP Server
     url: https://github.com/oras-project/oras-mcp
     type: MCPServer
+  - url: https://oras.land/blog/atom.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
