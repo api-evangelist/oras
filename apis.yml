@@ -23,6 +23,11 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oras.png
 tags:
   - Artifact Storage
+  - Cloud-Native
+  - Container Registry
+  - OCI
+tags_raw:
+  - Artifact Storage
   - Cloud Native
   - Container Registry
   - OCI
