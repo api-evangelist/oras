@@ -76,6 +76,10 @@ apis:
     humanURL: https://oras.land/docs/client_libraries/overview
     tags:
       - SDK
+      - Library
+      - OCI
+    tags_raw:
+      - SDK
       - Libraries
       - OCI
     properties:
